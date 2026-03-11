@@ -1,0 +1,72 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.main-container
+{
+    width: 400px;
+    margin: 80px auto;
+    background-color: rgb(92, 23, 23);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box; /* Prevents padding from breaking the 400px width */
+}
+
+h1
+{
+    text-align: center;
+    color: white; /* Added for readability against the dark background */
+}
+
+.input-section
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+input
+{
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button
+{
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul
+{
+    padding: 0;
+}
+
+li
+{
+    list-style: none;
+    padding: 10px;
+    background-color: #eeeeee;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns text and delete button vertically */
+}
+
+.completed
+{
+    text-decoration: line-through;
+    color: purple;
+}
+
+.deleteButton
+{
+    background-color: red;
+    color: white; /* Changed from orange for better visibility */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
